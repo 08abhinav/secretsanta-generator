@@ -69,3 +69,6 @@ A small summary of the skills showcased during this project: :small_red_triangle
 * Web application debugging
 * Where Santa lives
 * More! :)
+
+### Note  
+This project is cloned from https://github.com/NotTheBest/secretsanta-generator and is used purely for learning and practicing Jenkins and CI/CD concepts.
