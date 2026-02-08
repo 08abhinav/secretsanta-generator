@@ -24,7 +24,7 @@ jobs:
 # gitleask help us to find misconfigurations like hardcoded api key and hard coded secrets.
   security-checks:
     runs-on: self-hosted
-
+    needs: compile
     steps:
     - uses: actions/checkout@v4
     - name: Trivy Installation
