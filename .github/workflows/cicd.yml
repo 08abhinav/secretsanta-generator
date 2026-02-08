@@ -6,7 +6,7 @@ on:
     
 jobs:
   compile:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - uses: actions/checkout@v4
@@ -23,7 +23,7 @@ jobs:
 # trivy help us to find the vulnerabilities and misconfiguration across code repos, binary artifacts.
 # gitleask help us to find misconfigurations like hardcoded api key and hard coded secrets.
   security-checks:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - uses: actions/checkout@v4
